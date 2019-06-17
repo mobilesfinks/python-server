@@ -1,0 +1,9 @@
+---
+version: "2"
+services:
+  ps:
+    image: python-server:latest
+    # restart: always
+    ports:
+      - "8000:8000"
+    # network_mode: host
